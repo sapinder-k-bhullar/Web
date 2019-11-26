@@ -9,8 +9,8 @@
 
     workbox.precaching.precacheAndRoute([
         '/localStorage.html',
-        '/js/TODO.js',
-        '/css/TODO.css'
+        '/TODO.js',
+        '/TODO.css'
     ]);
     
     workbox.routing.registerRoute(
