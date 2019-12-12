@@ -1,9 +1,7 @@
-
-    (function(){
-  
-  var listitem = document.querySelector('#list'),
-      form = document.querySelector('form'),
-      newitem = document.querySelector('#newitem');
+(function(){
+    var listitem = document.querySelector('#list'),
+    form = document.querySelector('form'),
+    newitem = document.querySelector('#newitem');
   
   form.addEventListener('submit',function(e){
     e.preventDefault();
@@ -39,7 +37,3 @@
   }
   getitem();
 })();
-
-
-
-    
